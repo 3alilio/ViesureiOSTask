@@ -31,6 +31,7 @@
 		D9C187B62864E19B0012FDC7 /* BaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187B42864E19B0012FDC7 /* BaseProvider.swift */; };
 		D9C187B82864E1C80012FDC7 /* JsonDecoder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187B72864E1C80012FDC7 /* JsonDecoder+Extension.swift */; };
 		D9C187BA2864E2690012FDC7 /* EmptyDataSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187B92864E2690012FDC7 /* EmptyDataSetView.swift */; };
+		D9C187BC2864E2870012FDC7 /* WebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187BB2864E2870012FDC7 /* WebImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		D9C187B42864E19B0012FDC7 /* BaseProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseProvider.swift; sourceTree = "<group>"; };
 		D9C187B72864E1C80012FDC7 /* JsonDecoder+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JsonDecoder+Extension.swift"; sourceTree = "<group>"; };
 		D9C187B92864E2690012FDC7 /* EmptyDataSetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyDataSetView.swift; sourceTree = "<group>"; };
+		D9C187BB2864E2870012FDC7 /* WebImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebImageView.swift; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -228,6 +230,7 @@
 		D9C1879C2864DF970012FDC7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187BB2864E2870012FDC7 /* WebImageView.swift */,
 				D9C187B92864E2690012FDC7 /* EmptyDataSetView.swift */,
 			);
 			path = View;
@@ -568,6 +571,7 @@
 				D9C187B52864E19B0012FDC7 /* ArticlesNetworkDataProvider.swift in Sources */,
 				D9C187B02864E0AC0012FDC7 /* StubbedResponseReader.swift in Sources */,
 				D9C187B22864E10D0012FDC7 /* Article.swift in Sources */,
+				D9C187BC2864E2870012FDC7 /* WebImageView.swift in Sources */,
 				D9C1876D2864DBDB0012FDC7 /* ContentView.swift in Sources */,
 				D9C187B62864E19B0012FDC7 /* BaseProvider.swift in Sources */,
 				D9C1876B2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift in Sources */,
