@@ -27,6 +27,9 @@
 		D9C187AE2864E0940012FDC7 /* ArticlesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187AD2864E0940012FDC7 /* ArticlesApi.swift */; };
 		D9C187B02864E0AC0012FDC7 /* StubbedResponseReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187AF2864E0AC0012FDC7 /* StubbedResponseReader.swift */; };
 		D9C187B22864E10D0012FDC7 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187B12864E10D0012FDC7 /* Article.swift */; };
+		D9C187B52864E19B0012FDC7 /* ArticlesNetworkDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187B32864E19A0012FDC7 /* ArticlesNetworkDataProvider.swift */; };
+		D9C187B62864E19B0012FDC7 /* BaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187B42864E19B0012FDC7 /* BaseProvider.swift */; };
+		D9C187B82864E1C80012FDC7 /* JsonDecoder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187B72864E1C80012FDC7 /* JsonDecoder+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		D9C187AD2864E0940012FDC7 /* ArticlesApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesApi.swift; sourceTree = "<group>"; };
 		D9C187AF2864E0AC0012FDC7 /* StubbedResponseReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubbedResponseReader.swift; sourceTree = "<group>"; };
 		D9C187B12864E10D0012FDC7 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		D9C187B32864E19A0012FDC7 /* ArticlesNetworkDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesNetworkDataProvider.swift; sourceTree = "<group>"; };
+		D9C187B42864E19B0012FDC7 /* BaseProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseProvider.swift; sourceTree = "<group>"; };
+		D9C187B72864E1C80012FDC7 /* JsonDecoder+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JsonDecoder+Extension.swift"; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -251,6 +257,7 @@
 		D9C187A02864DFBE0012FDC7 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187B72864E1C80012FDC7 /* JsonDecoder+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -258,6 +265,8 @@
 		D9C187A12864DFCA0012FDC7 /* DataProvider */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187B32864E19A0012FDC7 /* ArticlesNetworkDataProvider.swift */,
+				D9C187B42864E19B0012FDC7 /* BaseProvider.swift */,
 			);
 			path = DataProvider;
 			sourceTree = "<group>";
@@ -545,15 +554,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9C187A82864E0470012FDC7 /* PresentableError.swift in Sources */,
+				D9C187B82864E1C80012FDC7 /* JsonDecoder+Extension.swift in Sources */,
 				D9C187AE2864E0940012FDC7 /* ArticlesApi.swift in Sources */,
 				D9C187AA2864E0470012FDC7 /* NetworkError.swift in Sources */,
 				D9C187A92864E0470012FDC7 /* UnknownError.swift in Sources */,
 				D9C187772864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodeld in Sources */,
 				D9C187742864DBDE0012FDC7 /* Persistence.swift in Sources */,
 				D9C187AB2864E0470012FDC7 /* ServerError.swift in Sources */,
+				D9C187B52864E19B0012FDC7 /* ArticlesNetworkDataProvider.swift in Sources */,
 				D9C187B02864E0AC0012FDC7 /* StubbedResponseReader.swift in Sources */,
 				D9C187B22864E10D0012FDC7 /* Article.swift in Sources */,
 				D9C1876D2864DBDB0012FDC7 /* ContentView.swift in Sources */,
+				D9C187B62864E19B0012FDC7 /* BaseProvider.swift in Sources */,
 				D9C1876B2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift in Sources */,
 				D9C187AC2864E0470012FDC7 /* PresentableErrorProvider.swift in Sources */,
 			);
