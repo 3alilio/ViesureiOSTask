@@ -1,5 +1,3 @@
-
-
 import XCTest
 import ViewInspector
 @testable import ViesureiOSTask
@@ -8,11 +6,11 @@ import SwiftUI
 class TestArticleListItemView: XCTestCase {
 
     var view: ArticleListItemView<ArticleListItemViewModel>?
-    
+
     lazy var vm: ArticleListItemViewModel = {
         return ArticleListItemViewModel(article: self.article)
     }()
-    
+
     let article = Article(id: 22, title: "Title", description: "Desc", author: nil, releaseDate: nil, image: nil)
 
     override func setUpWithError() throws {
