@@ -38,6 +38,7 @@
 		D9C187C62864E45E0012FDC7 /* MockArticlesData.json in Resources */ = {isa = PBXBuildFile; fileRef = D9C187C52864E45E0012FDC7 /* MockArticlesData.json */; };
 		D9C187CE2864E5AB0012FDC7 /* ArticleListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187CD2864E5AB0012FDC7 /* ArticleListItemViewModel.swift */; };
 		D9C187D02864E5E60012FDC7 /* ArticlesCoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187CF2864E5E60012FDC7 /* ArticlesCoreDataProvider.swift */; };
+		D9C187D22864E6B80012FDC7 /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187D12864E6B80012FDC7 /* ArticlesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,7 @@
 		D9C187C72864E4BE0012FDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D9C187CD2864E5AB0012FDC7 /* ArticleListItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListItemViewModel.swift; sourceTree = "<group>"; };
 		D9C187CF2864E5E60012FDC7 /* ArticlesCoreDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesCoreDataProvider.swift; sourceTree = "<group>"; };
+		D9C187D12864E6B80012FDC7 /* ArticlesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -237,6 +239,7 @@
 		D9C1879B2864DF8D0012FDC7 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187D12864E6B80012FDC7 /* ArticlesViewModel.swift */,
 				D9C187CD2864E5AB0012FDC7 /* ArticleListItemViewModel.swift */,
 			);
 			path = ViewModel;
@@ -606,6 +609,7 @@
 				D9C187B22864E10D0012FDC7 /* Article.swift in Sources */,
 				D9C187BC2864E2870012FDC7 /* WebImageView.swift in Sources */,
 				D9C1876D2864DBDB0012FDC7 /* ContentView.swift in Sources */,
+				D9C187D22864E6B80012FDC7 /* ArticlesViewModel.swift in Sources */,
 				D9C187B62864E19B0012FDC7 /* BaseProvider.swift in Sources */,
 				D9C1876B2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift in Sources */,
 				D9C187CE2864E5AB0012FDC7 /* ArticleListItemViewModel.swift in Sources */,
