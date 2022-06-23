@@ -173,6 +173,7 @@
 		D9C187692864DBDB0012FDC7 /* ViesureiOSTask */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187C82864E54A0012FDC7 /* MockedData */,
 				D9C187C72864E4BE0012FDC7 /* Info.plist */,
 				D9C187A22864DFD90012FDC7 /* ViesureCoreData */,
 				D9C187A12864DFCA0012FDC7 /* DataProvider */,
@@ -184,7 +185,6 @@
 				D9C1879B2864DF8D0012FDC7 /* ViewModel */,
 				D9C1879A2864DF830012FDC7 /* Errors */,
 				D9C1876A2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift */,
-				D9C187C52864E45E0012FDC7 /* MockArticlesData.json */,
 				D9C1876C2864DBDB0012FDC7 /* ContentView.swift */,
 				D9C1876E2864DBDE0012FDC7 /* Assets.xcassets */,
 				D9C187752864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodeld */,
@@ -296,6 +296,14 @@
 				D9C187C02864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift */,
 			);
 			path = ViesureCoreData;
+			sourceTree = "<group>";
+		};
+		D9C187C82864E54A0012FDC7 /* MockedData */ = {
+			isa = PBXGroup;
+			children = (
+				D9C187C52864E45E0012FDC7 /* MockArticlesData.json */,
+			);
+			path = MockedData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
