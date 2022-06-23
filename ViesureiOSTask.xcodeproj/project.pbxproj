@@ -35,6 +35,7 @@
 		D9C187C12864E3830012FDC7 /* ArticleCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187BF2864E3830012FDC7 /* ArticleCoreData+CoreDataClass.swift */; };
 		D9C187C22864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187C02864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift */; };
 		D9C187C42864E3CA0012FDC7 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187C32864E3CA0012FDC7 /* CoreDataManager.swift */; };
+		D9C187C62864E45E0012FDC7 /* MockArticlesData.json in Resources */ = {isa = PBXBuildFile; fileRef = D9C187C52864E45E0012FDC7 /* MockArticlesData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		D9C187BF2864E3830012FDC7 /* ArticleCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticleCoreData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		D9C187C02864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticleCoreData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		D9C187C32864E3CA0012FDC7 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		D9C187C52864E45E0012FDC7 /* MockArticlesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockArticlesData.json; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -180,6 +182,7 @@
 				D9C1879B2864DF8D0012FDC7 /* ViewModel */,
 				D9C1879A2864DF830012FDC7 /* Errors */,
 				D9C1876A2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift */,
+				D9C187C52864E45E0012FDC7 /* MockArticlesData.json */,
 				D9C1876C2864DBDB0012FDC7 /* ContentView.swift */,
 				D9C1876E2864DBDE0012FDC7 /* Assets.xcassets */,
 				D9C187752864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodeld */,
@@ -406,6 +409,7 @@
 			files = (
 				D9C187722864DBDE0012FDC7 /* Preview Assets.xcassets in Resources */,
 				D9C1876F2864DBDE0012FDC7 /* Assets.xcassets in Resources */,
+				D9C187C62864E45E0012FDC7 /* MockArticlesData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
