@@ -50,6 +50,7 @@
 		D9C187E92864EEB90012FDC7 /* TestArticlesCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187E82864EEB90012FDC7 /* TestArticlesCoreData.swift */; };
 		D9C187EB2864EF3F0012FDC7 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187EA2864EF3F0012FDC7 /* Date+Extension.swift */; };
 		D9C187ED2864EF680012FDC7 /* ArticleDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187EC2864EF680012FDC7 /* ArticleDetailViewModel.swift */; };
+		D9C187EF2864EF890012FDC7 /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187EE2864EF890012FDC7 /* ArticleDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,7 @@
 		D9C187E82864EEB90012FDC7 /* TestArticlesCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestArticlesCoreData.swift; sourceTree = "<group>"; };
 		D9C187EA2864EF3F0012FDC7 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		D9C187EC2864EF680012FDC7 /* ArticleDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewModel.swift; sourceTree = "<group>"; };
+		D9C187EE2864EF890012FDC7 /* ArticleDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -277,6 +279,7 @@
 		D9C1879C2864DF970012FDC7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187EE2864EF890012FDC7 /* ArticleDetailView.swift */,
 				D9C187D52864E7580012FDC7 /* ArticlesView.swift */,
 				D9C187D32864E7290012FDC7 /* ArticleListItemView.swift */,
 				D9C187BB2864E2870012FDC7 /* WebImageView.swift */,
@@ -654,6 +657,7 @@
 				D9C187BA2864E2690012FDC7 /* EmptyDataSetView.swift in Sources */,
 				D9C187B82864E1C80012FDC7 /* JsonDecoder+Extension.swift in Sources */,
 				D9C187AE2864E0940012FDC7 /* ArticlesApi.swift in Sources */,
+				D9C187EF2864EF890012FDC7 /* ArticleDetailView.swift in Sources */,
 				D9C187AA2864E0470012FDC7 /* NetworkError.swift in Sources */,
 				D9C187C22864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift in Sources */,
 				D9C187A92864E0470012FDC7 /* UnknownError.swift in Sources */,
