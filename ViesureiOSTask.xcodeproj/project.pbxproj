@@ -54,6 +54,7 @@
 		D9C187F12864F05C0012FDC7 /* TestArticleDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187F02864F05C0012FDC7 /* TestArticleDetailViewModel.swift */; };
 		D9C187F52864F0E40012FDC7 /* TestEmptyDataSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187F32864F0E40012FDC7 /* TestEmptyDataSetView.swift */; };
 		D9C187F62864F0E40012FDC7 /* TestArticleListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187F42864F0E40012FDC7 /* TestArticleListItemView.swift */; };
+		D9C187F82864F1A30012FDC7 /* TestArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187F72864F1A30012FDC7 /* TestArticleDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +131,7 @@
 		D9C187F02864F05C0012FDC7 /* TestArticleDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestArticleDetailViewModel.swift; sourceTree = "<group>"; };
 		D9C187F32864F0E40012FDC7 /* TestEmptyDataSetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestEmptyDataSetView.swift; sourceTree = "<group>"; };
 		D9C187F42864F0E40012FDC7 /* TestArticleListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestArticleListItemView.swift; sourceTree = "<group>"; };
+		D9C187F72864F1A30012FDC7 /* TestArticleDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestArticleDetailView.swift; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -386,6 +388,7 @@
 		D9C187F22864F0CC0012FDC7 /* TestView */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187F72864F1A30012FDC7 /* TestArticleDetailView.swift */,
 				D9C187F42864F0E40012FDC7 /* TestArticleListItemView.swift */,
 				D9C187F32864F0E40012FDC7 /* TestEmptyDataSetView.swift */,
 			);
@@ -709,6 +712,7 @@
 				D9C187E32864EE320012FDC7 /* TestArticlesViewModel.swift in Sources */,
 				D9C187DC2864ED0F0012FDC7 /* TestTasksDataProvider.swift in Sources */,
 				D9C187E92864EEB90012FDC7 /* TestArticlesCoreData.swift in Sources */,
+				D9C187F82864F1A30012FDC7 /* TestArticleDetailView.swift in Sources */,
 				D9C187F12864F05C0012FDC7 /* TestArticleDetailViewModel.swift in Sources */,
 				D9C187D92864ECB90012FDC7 /* TestErrorProvider.swift in Sources */,
 				D9C187F52864F0E40012FDC7 /* TestEmptyDataSetView.swift in Sources */,
