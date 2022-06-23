@@ -23,5 +23,5 @@ struct Article: Codable {
     enum CodingKeys: String, CodingKey {
         case id, title, description, author, image
         case releaseDate = "release_date"
-    }    
+    }
 }

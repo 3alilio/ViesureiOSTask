@@ -14,7 +14,7 @@ protocol PresentableError {
     var title: String { get }
     var description: String { get }
     var isRetriable: Bool { get }
-    
+
     init?(error: Error)
 
 }
@@ -28,7 +28,7 @@ extension PresentableError {
     var description: String {
         return NSLocalizedString("An unknown error occurred. Please try again later. If the problem persists, please contact our Article support.", comment: "")
     }
-    
+
     var isRetriable: Bool {
         return false
     }
