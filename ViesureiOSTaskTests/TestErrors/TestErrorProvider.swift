@@ -24,7 +24,8 @@ class TestErrorProvider: XCTestCase {
         let resolvedError = PresentableErrorProvider(additional: [ServerError.self]).presentableError(for: error)
         XCTAssertTrue(resolvedError is NetworkError)
         XCTAssertTrue(resolvedError.isRetriable)
-        XCTAssertEqual(resolvedError.description, String(format: NSLocalizedString("No internet connection. Make sure your %@ is connected to the internet to continue.", comment: ""), UIDevice.current.localizedModel))
+        let string = String(format: NSLocalizedString("No internet connection. Make sure your %@ is connected to the internet to continue.", comment: ""), UIDevice.current.localizedModel)
+        XCTAssertEqual(resolvedError.description, string)
     }
 
     func customFailureEndpointClosure(_ target: ArticlesApi) -> Endpoint {

@@ -41,6 +41,7 @@
 		D9C187D42864E7290012FDC7 /* ArticleListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187D32864E7290012FDC7 /* ArticleListItemView.swift */; };
 		D9C187D62864E7580012FDC7 /* ArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187D52864E7580012FDC7 /* ArticlesView.swift */; };
 		D9C187D92864ECB90012FDC7 /* TestErrorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187D82864ECB90012FDC7 /* TestErrorProvider.swift */; };
+		D9C187DC2864ED0F0012FDC7 /* TestTasksDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187DB2864ED0F0012FDC7 /* TestTasksDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +105,7 @@
 		D9C187D32864E7290012FDC7 /* ArticleListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListItemView.swift; sourceTree = "<group>"; };
 		D9C187D52864E7580012FDC7 /* ArticlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesView.swift; sourceTree = "<group>"; };
 		D9C187D82864ECB90012FDC7 /* TestErrorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestErrorProvider.swift; sourceTree = "<group>"; };
+		D9C187DB2864ED0F0012FDC7 /* TestTasksDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTasksDataProvider.swift; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -213,6 +215,7 @@
 		D9C1877F2864DBDF0012FDC7 /* ViesureiOSTaskTests */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187DA2864ECFD0012FDC7 /* TestApi */,
 				D9C187D72864ECA80012FDC7 /* TestErrors */,
 				D9C187802864DBDF0012FDC7 /* ViesureiOSTaskTests.swift */,
 			);
@@ -327,6 +330,14 @@
 				D9C187D82864ECB90012FDC7 /* TestErrorProvider.swift */,
 			);
 			path = TestErrors;
+			sourceTree = "<group>";
+		};
+		D9C187DA2864ECFD0012FDC7 /* TestApi */ = {
+			isa = PBXGroup;
+			children = (
+				D9C187DB2864ED0F0012FDC7 /* TestTasksDataProvider.swift */,
+			);
+			path = TestApi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -637,6 +648,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9C187812864DBDF0012FDC7 /* ViesureiOSTaskTests.swift in Sources */,
+				D9C187DC2864ED0F0012FDC7 /* TestTasksDataProvider.swift in Sources */,
 				D9C187D92864ECB90012FDC7 /* TestErrorProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
