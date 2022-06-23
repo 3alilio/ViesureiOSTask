@@ -12,7 +12,7 @@ struct ViesureiOSTaskApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ArticlesView(viewModel: ArticlesViewModel())
         }
     }
 }

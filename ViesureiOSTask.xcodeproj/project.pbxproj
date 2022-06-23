@@ -11,7 +11,6 @@
 		C212B620D65177552E6A40BD /* Pods_ViesureiOSTask_ViesureiOSTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C0106A8F7B0CBAB3ECE851 /* Pods_ViesureiOSTask_ViesureiOSTaskUITests.framework */; };
 		CAEAFA72C3A1DFF33C69B828 /* Pods_ViesureiOSTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E5F66265179F5013F626B1 /* Pods_ViesureiOSTask.framework */; };
 		D9C1876B2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C1876A2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift */; };
-		D9C1876D2864DBDB0012FDC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C1876C2864DBDB0012FDC7 /* ContentView.swift */; };
 		D9C1876F2864DBDE0012FDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C1876E2864DBDE0012FDC7 /* Assets.xcassets */; };
 		D9C187722864DBDE0012FDC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C187712864DBDE0012FDC7 /* Preview Assets.xcassets */; };
 		D9C187772864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9C187752864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodeld */; };
@@ -71,7 +70,6 @@
 		BFFC3A95DBFB3D1DFA7B93BD /* Pods-ViesureiOSTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViesureiOSTask.debug.xcconfig"; path = "Target Support Files/Pods-ViesureiOSTask/Pods-ViesureiOSTask.debug.xcconfig"; sourceTree = "<group>"; };
 		D9C187672864DBDB0012FDC7 /* ViesureiOSTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViesureiOSTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C1876A2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViesureiOSTaskApp.swift; sourceTree = "<group>"; };
-		D9C1876C2864DBDB0012FDC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9C1876E2864DBDE0012FDC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9C187712864DBDE0012FDC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9C187762864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViesureiOSTask.xcdatamodel; sourceTree = "<group>"; };
@@ -195,7 +193,6 @@
 				D9C1879B2864DF8D0012FDC7 /* ViewModel */,
 				D9C1879A2864DF830012FDC7 /* Errors */,
 				D9C1876A2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift */,
-				D9C1876C2864DBDB0012FDC7 /* ContentView.swift */,
 				D9C1876E2864DBDE0012FDC7 /* Assets.xcassets */,
 				D9C187752864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodeld */,
 				D9C187702864DBDE0012FDC7 /* Preview Content */,
@@ -616,7 +613,6 @@
 				D9C187B02864E0AC0012FDC7 /* StubbedResponseReader.swift in Sources */,
 				D9C187B22864E10D0012FDC7 /* Article.swift in Sources */,
 				D9C187BC2864E2870012FDC7 /* WebImageView.swift in Sources */,
-				D9C1876D2864DBDB0012FDC7 /* ContentView.swift in Sources */,
 				D9C187D22864E6B80012FDC7 /* ArticlesViewModel.swift in Sources */,
 				D9C187B62864E19B0012FDC7 /* BaseProvider.swift in Sources */,
 				D9C1876B2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift in Sources */,
