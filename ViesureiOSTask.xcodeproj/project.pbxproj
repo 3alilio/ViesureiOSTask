@@ -26,6 +26,7 @@
 		D9C187AC2864E0470012FDC7 /* PresentableErrorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187A72864E0470012FDC7 /* PresentableErrorProvider.swift */; };
 		D9C187AE2864E0940012FDC7 /* ArticlesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187AD2864E0940012FDC7 /* ArticlesApi.swift */; };
 		D9C187B02864E0AC0012FDC7 /* StubbedResponseReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187AF2864E0AC0012FDC7 /* StubbedResponseReader.swift */; };
+		D9C187B22864E10D0012FDC7 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187B12864E10D0012FDC7 /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		D9C187A72864E0470012FDC7 /* PresentableErrorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentableErrorProvider.swift; sourceTree = "<group>"; };
 		D9C187AD2864E0940012FDC7 /* ArticlesApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesApi.swift; sourceTree = "<group>"; };
 		D9C187AF2864E0AC0012FDC7 /* StubbedResponseReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubbedResponseReader.swift; sourceTree = "<group>"; };
+		D9C187B12864E10D0012FDC7 /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -241,6 +243,7 @@
 		D9C1879F2864DFB50012FDC7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187B12864E10D0012FDC7 /* Article.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -549,6 +552,7 @@
 				D9C187742864DBDE0012FDC7 /* Persistence.swift in Sources */,
 				D9C187AB2864E0470012FDC7 /* ServerError.swift in Sources */,
 				D9C187B02864E0AC0012FDC7 /* StubbedResponseReader.swift in Sources */,
+				D9C187B22864E10D0012FDC7 /* Article.swift in Sources */,
 				D9C1876D2864DBDB0012FDC7 /* ContentView.swift in Sources */,
 				D9C1876B2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift in Sources */,
 				D9C187AC2864E0470012FDC7 /* PresentableErrorProvider.swift in Sources */,
