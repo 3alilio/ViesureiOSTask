@@ -142,19 +142,19 @@ class TestArticlesViewModel: XCTestCase {
             }
     }
 
-//    func testIsArticlesSorted() throws {
-//        guard let vm = vm else {
-//            XCTFail("Articles View Model is nil")
-//            return
-//        }
-//        vm.sendGetArticlesRequest()
-//            switch vm.viewState {
-//            case .articles(let articles):
-//                XCTAssertEqual(articles.first?.article.releaseDate?.veisureStringFormat, "Thu, Jan 23, '20")
-//                XCTAssertEqual(articles.last?.article.releaseDate?.veisureStringFormat, "Mon, Jan 1, '18")
-//            case .emptyDataSet, .loading:
-//                XCTFail("State should be showing articles Sorted")
-//            }
-//    }
+    func testIsArticlesSorted() throws {
+        guard let vm = vm else {
+            XCTFail("Articles View Model is nil")
+            return
+        }
+        vm.sendGetArticlesRequest()
+            switch vm.viewState {
+            case .articles(let articles):
+                XCTAssertEqual(articles.first?.article.releaseDate?.veisureStringFormat, "Thu, Jan 23, '20")
+                XCTAssertEqual(articles.last?.article.releaseDate?.veisureStringFormat, "Mon, Jan 1, '18")
+            case .emptyDataSet, .loading:
+                XCTFail("State should be showing articles Sorted")
+            }
+    }
 
 }
