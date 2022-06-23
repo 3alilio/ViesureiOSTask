@@ -13,6 +13,7 @@ struct ArticleDetailView<T>: View where T: ArticleDetailViewModelProtocol {
 
     init(viewModel: T) {
         self.viewModel = viewModel
+
     }
 
     var body: some View {
@@ -20,7 +21,6 @@ struct ArticleDetailView<T>: View where T: ArticleDetailViewModelProtocol {
             UIColor.systemGray5.color.ignoresSafeArea()
             ScrollView {
                 VStack {
-                    // TODO:- press on picture open in new screen 
                     WebImageView(url: viewModel.detailModel.image, placeholderName: "placeholder")
                         .aspectRatio(contentMode: .fit)
                         .padding(0)
@@ -41,6 +41,7 @@ struct ArticleDetailView<T>: View where T: ArticleDetailViewModelProtocol {
 
                         Text(viewModel.detailModel.description ?? "")
                             .font(.body)
+                            .fixedSize(horizontal: false, vertical: true)
                             .multilineTextAlignment(.leading)
 
                         if let author = viewModel.detailModel.author {

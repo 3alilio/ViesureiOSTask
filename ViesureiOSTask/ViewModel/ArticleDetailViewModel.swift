@@ -28,6 +28,7 @@ class ArticleDetailViewModel: ArticleDetailViewModelProtocol, ObservableObject {
 
     init(article: Article) {
         self.article = article
-        self.detailModel = ArticleDetailModel(date: article.releaseDate?.veisureStringFormat, title: article.title, author: article.author, description: article.description, image: article.imageUrl)
+        self.detailModel = ArticleDetailModel(date: article.releaseDate?.veisureStringFormat, title: article.title,
+                                              author: article.author, description: article.description, image: article.imageUrl)
     }
 }
