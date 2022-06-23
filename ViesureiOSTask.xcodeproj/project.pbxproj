@@ -48,6 +48,7 @@
 		D9C187E62864EE4A0012FDC7 /* MockArticlesCoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187E42864EE4A0012FDC7 /* MockArticlesCoreDataProvider.swift */; };
 		D9C187E72864EE4A0012FDC7 /* MockArticlesNetworkDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187E52864EE4A0012FDC7 /* MockArticlesNetworkDataProvider.swift */; };
 		D9C187E92864EEB90012FDC7 /* TestArticlesCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187E82864EEB90012FDC7 /* TestArticlesCoreData.swift */; };
+		D9C187EB2864EF3F0012FDC7 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187EA2864EF3F0012FDC7 /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +119,7 @@
 		D9C187E42864EE4A0012FDC7 /* MockArticlesCoreDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockArticlesCoreDataProvider.swift; sourceTree = "<group>"; };
 		D9C187E52864EE4A0012FDC7 /* MockArticlesNetworkDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockArticlesNetworkDataProvider.swift; sourceTree = "<group>"; };
 		D9C187E82864EEB90012FDC7 /* TestArticlesCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestArticlesCoreData.swift; sourceTree = "<group>"; };
+		D9C187EA2864EF3F0012FDC7 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -308,6 +310,7 @@
 		D9C187A02864DFBE0012FDC7 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187EA2864EF3F0012FDC7 /* Date+Extension.swift */,
 				D9C187BD2864E2DB0012FDC7 /* Colors+Extension.swift */,
 				D9C187B72864E1C80012FDC7 /* JsonDecoder+Extension.swift */,
 			);
@@ -642,6 +645,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C187EB2864EF3F0012FDC7 /* Date+Extension.swift in Sources */,
 				D9C187D02864E5E60012FDC7 /* ArticlesCoreDataProvider.swift in Sources */,
 				D9C187A82864E0470012FDC7 /* PresentableError.swift in Sources */,
 				D9C187BA2864E2690012FDC7 /* EmptyDataSetView.swift in Sources */,
