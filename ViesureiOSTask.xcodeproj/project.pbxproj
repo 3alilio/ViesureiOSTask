@@ -93,6 +93,7 @@
 		D9C187C02864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticleCoreData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		D9C187C32864E3CA0012FDC7 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		D9C187C52864E45E0012FDC7 /* MockArticlesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockArticlesData.json; sourceTree = "<group>"; };
+		D9C187C72864E4BE0012FDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -172,6 +173,7 @@
 		D9C187692864DBDB0012FDC7 /* ViesureiOSTask */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187C72864E4BE0012FDC7 /* Info.plist */,
 				D9C187A22864DFD90012FDC7 /* ViesureCoreData */,
 				D9C187A12864DFCA0012FDC7 /* DataProvider */,
 				D9C187A02864DFBE0012FDC7 /* Extension */,
@@ -756,6 +758,8 @@
 				DEVELOPMENT_TEAM = C28BJ3A92Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ViesureiOSTask/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -788,6 +792,8 @@
 				DEVELOPMENT_TEAM = C28BJ3A92Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ViesureiOSTask/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
