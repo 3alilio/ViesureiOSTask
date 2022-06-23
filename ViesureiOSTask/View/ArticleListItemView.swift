@@ -40,7 +40,7 @@ struct ArticleListItemView<T>: View where T: ArticleListItemViewModelProtocol {
     }
 
     var profileImage: some View {
-        WebImageView(url: viewModel.imageUrl, placeholderName: "placeholder")
+        WebImageView(url: viewModel.imageUrl, placeholderName: "article-placeholder")
             .aspectRatio(contentMode: .fill)
             .frame(width: 70, height: 70)
             .cornerRadius(35)
