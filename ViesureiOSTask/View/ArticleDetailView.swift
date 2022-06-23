@@ -32,6 +32,8 @@ struct ArticleDetailView<T>: View where T: ArticleDetailViewModelProtocol {
                             .font(.title3)
                             .bold()
                             .multilineTextAlignment(.leading)
+                            .minimumScaleFactor(0.5)
+                            .lineLimit(4)
 
                         Text(viewModel.detailModel.date ?? "")
                             .bold()
