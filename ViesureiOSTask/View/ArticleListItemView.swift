@@ -13,7 +13,7 @@ struct ArticleListItemView<T>: View where T: ArticleListItemViewModelProtocol {
 
     var body: some View {
         HStack {
-            profileImage
+            articleImage
             textVStackBody
         }
     }
@@ -39,10 +39,12 @@ struct ArticleListItemView<T>: View where T: ArticleListItemViewModelProtocol {
             }
     }
 
-    var profileImage: some View {
+    private var articleImage: some View {
         WebImageView(url: viewModel.imageUrl, placeholderName: "article-placeholder")
-            .aspectRatio(contentMode: .fill)
+            .aspectRatio(contentMode: .fit)
             .frame(width: 70, height: 70)
-            .cornerRadius(35)
+            .clipShape(Circle())
+            .shadow(radius: 10)
+            .overlay(Circle().stroke(UIColor.label.color, lineWidth: 1))
     }
 }
