@@ -138,6 +138,15 @@
 		D9C187692864DBDB0012FDC7 /* ViesureiOSTask */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187A22864DFD90012FDC7 /* ViesureCoreData */,
+				D9C187A12864DFCA0012FDC7 /* DataProvider */,
+				D9C187A02864DFBE0012FDC7 /* Extension */,
+				D9C1879F2864DFB50012FDC7 /* Model */,
+				D9C1879E2864DFAE0012FDC7 /* Api */,
+				D9C1879D2864DFA40012FDC7 /* Utilities */,
+				D9C1879C2864DF970012FDC7 /* View */,
+				D9C1879B2864DF8D0012FDC7 /* ViewModel */,
+				D9C1879A2864DF830012FDC7 /* Errors */,
 				D9C1876A2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift */,
 				D9C1876C2864DBDB0012FDC7 /* ContentView.swift */,
 				D9C1876E2864DBDE0012FDC7 /* Assets.xcassets */,
@@ -171,6 +180,69 @@
 				D9C1878C2864DBDF0012FDC7 /* ViesureiOSTaskUITestsLaunchTests.swift */,
 			);
 			path = ViesureiOSTaskUITests;
+			sourceTree = "<group>";
+		};
+		D9C1879A2864DF830012FDC7 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		D9C1879B2864DF8D0012FDC7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D9C1879C2864DF970012FDC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9C1879D2864DFA40012FDC7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D9C1879E2864DFAE0012FDC7 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		D9C1879F2864DFB50012FDC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9C187A02864DFBE0012FDC7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D9C187A12864DFCA0012FDC7 /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		D9C187A22864DFD90012FDC7 /* ViesureCoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViesureCoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
