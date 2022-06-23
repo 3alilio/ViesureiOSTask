@@ -24,6 +24,8 @@
 		D9C187AA2864E0470012FDC7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187A52864E0470012FDC7 /* NetworkError.swift */; };
 		D9C187AB2864E0470012FDC7 /* ServerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187A62864E0470012FDC7 /* ServerError.swift */; };
 		D9C187AC2864E0470012FDC7 /* PresentableErrorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187A72864E0470012FDC7 /* PresentableErrorProvider.swift */; };
+		D9C187AE2864E0940012FDC7 /* ArticlesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187AD2864E0940012FDC7 /* ArticlesApi.swift */; };
+		D9C187B02864E0AC0012FDC7 /* StubbedResponseReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187AF2864E0AC0012FDC7 /* StubbedResponseReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		D9C187A52864E0470012FDC7 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		D9C187A62864E0470012FDC7 /* ServerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerError.swift; sourceTree = "<group>"; };
 		D9C187A72864E0470012FDC7 /* PresentableErrorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentableErrorProvider.swift; sourceTree = "<group>"; };
+		D9C187AD2864E0940012FDC7 /* ArticlesApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesApi.swift; sourceTree = "<group>"; };
+		D9C187AF2864E0AC0012FDC7 /* StubbedResponseReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StubbedResponseReader.swift; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -221,6 +225,7 @@
 		D9C1879D2864DFA40012FDC7 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187AF2864E0AC0012FDC7 /* StubbedResponseReader.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 		D9C1879E2864DFAE0012FDC7 /* Api */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187AD2864E0940012FDC7 /* ArticlesApi.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -536,11 +542,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9C187A82864E0470012FDC7 /* PresentableError.swift in Sources */,
+				D9C187AE2864E0940012FDC7 /* ArticlesApi.swift in Sources */,
 				D9C187AA2864E0470012FDC7 /* NetworkError.swift in Sources */,
 				D9C187A92864E0470012FDC7 /* UnknownError.swift in Sources */,
 				D9C187772864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodeld in Sources */,
 				D9C187742864DBDE0012FDC7 /* Persistence.swift in Sources */,
 				D9C187AB2864E0470012FDC7 /* ServerError.swift in Sources */,
+				D9C187B02864E0AC0012FDC7 /* StubbedResponseReader.swift in Sources */,
 				D9C1876D2864DBDB0012FDC7 /* ContentView.swift in Sources */,
 				D9C1876B2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift in Sources */,
 				D9C187AC2864E0470012FDC7 /* PresentableErrorProvider.swift in Sources */,
