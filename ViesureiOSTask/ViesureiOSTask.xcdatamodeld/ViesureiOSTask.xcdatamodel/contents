@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="20G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="ArticleCoreData" representedClassName="ArticleCoreData" syncable="YES" codeGenerationType="class">
+    <entity name="ArticleCoreData" representedClassName="ArticleCoreData" syncable="YES">
         <attribute name="articleDescription" optional="YES" attributeType="String"/>
         <attribute name="author" optional="YES" attributeType="String"/>
         <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>

@@ -33,6 +33,8 @@
 		D9C187BA2864E2690012FDC7 /* EmptyDataSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187B92864E2690012FDC7 /* EmptyDataSetView.swift */; };
 		D9C187BC2864E2870012FDC7 /* WebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187BB2864E2870012FDC7 /* WebImageView.swift */; };
 		D9C187BE2864E2DB0012FDC7 /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187BD2864E2DB0012FDC7 /* Colors+Extension.swift */; };
+		D9C187C12864E3830012FDC7 /* ArticleCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187BF2864E3830012FDC7 /* ArticleCoreData+CoreDataClass.swift */; };
+		D9C187C22864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187C02864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		D9C187B92864E2690012FDC7 /* EmptyDataSetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyDataSetView.swift; sourceTree = "<group>"; };
 		D9C187BB2864E2870012FDC7 /* WebImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebImageView.swift; sourceTree = "<group>"; };
 		D9C187BD2864E2DB0012FDC7 /* Colors+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Colors+Extension.swift"; sourceTree = "<group>"; };
+		D9C187BF2864E3830012FDC7 /* ArticleCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticleCoreData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		D9C187C02864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticleCoreData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -283,6 +287,8 @@
 		D9C187A22864DFD90012FDC7 /* ViesureCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187BF2864E3830012FDC7 /* ArticleCoreData+CoreDataClass.swift */,
+				D9C187C02864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift */,
 			);
 			path = ViesureCoreData;
 			sourceTree = "<group>";
@@ -567,7 +573,9 @@
 				D9C187B82864E1C80012FDC7 /* JsonDecoder+Extension.swift in Sources */,
 				D9C187AE2864E0940012FDC7 /* ArticlesApi.swift in Sources */,
 				D9C187AA2864E0470012FDC7 /* NetworkError.swift in Sources */,
+				D9C187C22864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift in Sources */,
 				D9C187A92864E0470012FDC7 /* UnknownError.swift in Sources */,
+				D9C187C12864E3830012FDC7 /* ArticleCoreData+CoreDataClass.swift in Sources */,
 				D9C187772864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodeld in Sources */,
 				D9C187742864DBDE0012FDC7 /* Persistence.swift in Sources */,
 				D9C187AB2864E0470012FDC7 /* ServerError.swift in Sources */,
