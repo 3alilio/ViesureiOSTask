@@ -8,7 +8,7 @@
 import Foundation
 
 extension Date {
-    
+
     var veisureStringFormat: String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = """

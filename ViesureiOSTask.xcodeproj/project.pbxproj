@@ -49,6 +49,7 @@
 		D9C187E72864EE4A0012FDC7 /* MockArticlesNetworkDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187E52864EE4A0012FDC7 /* MockArticlesNetworkDataProvider.swift */; };
 		D9C187E92864EEB90012FDC7 /* TestArticlesCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187E82864EEB90012FDC7 /* TestArticlesCoreData.swift */; };
 		D9C187EB2864EF3F0012FDC7 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187EA2864EF3F0012FDC7 /* Date+Extension.swift */; };
+		D9C187ED2864EF680012FDC7 /* ArticleDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187EC2864EF680012FDC7 /* ArticleDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		D9C187E52864EE4A0012FDC7 /* MockArticlesNetworkDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockArticlesNetworkDataProvider.swift; sourceTree = "<group>"; };
 		D9C187E82864EEB90012FDC7 /* TestArticlesCoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestArticlesCoreData.swift; sourceTree = "<group>"; };
 		D9C187EA2864EF3F0012FDC7 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		D9C187EC2864EF680012FDC7 /* ArticleDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewModel.swift; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -265,6 +267,7 @@
 		D9C1879B2864DF8D0012FDC7 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187EC2864EF680012FDC7 /* ArticleDetailViewModel.swift */,
 				D9C187D12864E6B80012FDC7 /* ArticlesViewModel.swift */,
 				D9C187CD2864E5AB0012FDC7 /* ArticleListItemViewModel.swift */,
 			);
@@ -665,6 +668,7 @@
 				D9C187B02864E0AC0012FDC7 /* StubbedResponseReader.swift in Sources */,
 				D9C187B22864E10D0012FDC7 /* Article.swift in Sources */,
 				D9C187BC2864E2870012FDC7 /* WebImageView.swift in Sources */,
+				D9C187ED2864EF680012FDC7 /* ArticleDetailViewModel.swift in Sources */,
 				D9C187D22864E6B80012FDC7 /* ArticlesViewModel.swift in Sources */,
 				D9C187B62864E19B0012FDC7 /* BaseProvider.swift in Sources */,
 				D9C1876B2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift in Sources */,
