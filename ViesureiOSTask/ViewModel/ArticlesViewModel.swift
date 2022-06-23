@@ -20,9 +20,9 @@ protocol ArticlesViewModelProtocol: ObservableObject {
 
     var viewState: ArticlesViewState { get }
     var title: String { get }
-//    var selectedItem: ArticleDetailViewModel? { get }
+    var selectedItem: ArticleDetailViewModel? { get }
     var showDetail: Bool { get set }
-//    func userSelectItem(item: ArticleListItemViewModel)
+    func userSelectItem(item: ArticleListItemViewModel)
     func sendGetArticlesRequest()
 }
 
@@ -37,7 +37,7 @@ class ArticlesViewModel: ObservableObject, ArticlesViewModelProtocol {
     @Published var showDetail: Bool = false
 
     let title: String = "Articles"
-//    private(set) var selectedItem: ArticleDetailViewModel?
+    private(set) var selectedItem: ArticleDetailViewModel?
 
     private let retrialConfig: RetrialConfig
     private var retriableCount = 0
@@ -65,10 +65,10 @@ class ArticlesViewModel: ObservableObject, ArticlesViewModelProtocol {
         })
     }
 
-//    func userSelectItem(item: ArticleListItemViewModel) {
-//        selectedItem = ArticleDetailViewModel(article: item.article)
-//        showDetail = true
-//    }
+    func userSelectItem(item: ArticleListItemViewModel) {
+        selectedItem = ArticleDetailViewModel(article: item.article)
+        showDetail = true
+    }
 
     private func handleSucessfulResponse(articles: [Article], shouldSaveArticles: Bool = true) {
         if  !articles.isEmpty {

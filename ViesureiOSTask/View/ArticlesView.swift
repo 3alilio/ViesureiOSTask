@@ -28,15 +28,15 @@ struct ArticlesView<T>: View where T: ArticlesViewModelProtocol {
         NavigationView {
             ZStack {
                 UIColor.systemGray5.color.ignoresSafeArea()
-//                if let vm = viewModel.selectedItem {
-//                    NavigationLink(destination: ArticleDetailView(viewModel: vm), isActive: $viewModel.showDetail) { EmptyView() }
-//                }
+                if let vm = viewModel.selectedItem {
+                    NavigationLink(destination: ArticleDetailView(viewModel: vm), isActive: $viewModel.showDetail) { EmptyView() }
+                }
                 VStack {
                     switch viewModel.viewState {
                     case .articles(let articles):
                         List(articles, id: \.id) { article in
                             Button(action: {
-//                                viewModel.userSelectItem(item: article)
+                                viewModel.userSelectItem(item: article)
                             }, label: {
                                 ArticleListItemView(viewModel: article)
                             })
