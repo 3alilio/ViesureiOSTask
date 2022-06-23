@@ -36,6 +36,7 @@
 		D9C187C22864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187C02864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift */; };
 		D9C187C42864E3CA0012FDC7 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187C32864E3CA0012FDC7 /* CoreDataManager.swift */; };
 		D9C187C62864E45E0012FDC7 /* MockArticlesData.json in Resources */ = {isa = PBXBuildFile; fileRef = D9C187C52864E45E0012FDC7 /* MockArticlesData.json */; };
+		D9C187CE2864E5AB0012FDC7 /* ArticleListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187CD2864E5AB0012FDC7 /* ArticleListItemViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,7 @@
 		D9C187C32864E3CA0012FDC7 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		D9C187C52864E45E0012FDC7 /* MockArticlesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockArticlesData.json; sourceTree = "<group>"; };
 		D9C187C72864E4BE0012FDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D9C187CD2864E5AB0012FDC7 /* ArticleListItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListItemViewModel.swift; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -233,6 +235,7 @@
 		D9C1879B2864DF8D0012FDC7 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187CD2864E5AB0012FDC7 /* ArticleListItemViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -601,6 +604,7 @@
 				D9C1876D2864DBDB0012FDC7 /* ContentView.swift in Sources */,
 				D9C187B62864E19B0012FDC7 /* BaseProvider.swift in Sources */,
 				D9C1876B2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift in Sources */,
+				D9C187CE2864E5AB0012FDC7 /* ArticleListItemViewModel.swift in Sources */,
 				D9C187AC2864E0470012FDC7 /* PresentableErrorProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
