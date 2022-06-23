@@ -32,6 +32,7 @@
 		D9C187B82864E1C80012FDC7 /* JsonDecoder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187B72864E1C80012FDC7 /* JsonDecoder+Extension.swift */; };
 		D9C187BA2864E2690012FDC7 /* EmptyDataSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187B92864E2690012FDC7 /* EmptyDataSetView.swift */; };
 		D9C187BC2864E2870012FDC7 /* WebImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187BB2864E2870012FDC7 /* WebImageView.swift */; };
+		D9C187BE2864E2DB0012FDC7 /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187BD2864E2DB0012FDC7 /* Colors+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		D9C187B72864E1C80012FDC7 /* JsonDecoder+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JsonDecoder+Extension.swift"; sourceTree = "<group>"; };
 		D9C187B92864E2690012FDC7 /* EmptyDataSetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyDataSetView.swift; sourceTree = "<group>"; };
 		D9C187BB2864E2870012FDC7 /* WebImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebImageView.swift; sourceTree = "<group>"; };
+		D9C187BD2864E2DB0012FDC7 /* Colors+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Colors+Extension.swift"; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -263,6 +265,7 @@
 		D9C187A02864DFBE0012FDC7 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187BD2864E2DB0012FDC7 /* Colors+Extension.swift */,
 				D9C187B72864E1C80012FDC7 /* JsonDecoder+Extension.swift */,
 			);
 			path = Extension;
@@ -568,6 +571,7 @@
 				D9C187772864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodeld in Sources */,
 				D9C187742864DBDE0012FDC7 /* Persistence.swift in Sources */,
 				D9C187AB2864E0470012FDC7 /* ServerError.swift in Sources */,
+				D9C187BE2864E2DB0012FDC7 /* Colors+Extension.swift in Sources */,
 				D9C187B52864E19B0012FDC7 /* ArticlesNetworkDataProvider.swift in Sources */,
 				D9C187B02864E0AC0012FDC7 /* StubbedResponseReader.swift in Sources */,
 				D9C187B22864E10D0012FDC7 /* Article.swift in Sources */,
