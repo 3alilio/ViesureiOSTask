@@ -40,6 +40,7 @@
 		D9C187D02864E5E60012FDC7 /* ArticlesCoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187CF2864E5E60012FDC7 /* ArticlesCoreDataProvider.swift */; };
 		D9C187D22864E6B80012FDC7 /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187D12864E6B80012FDC7 /* ArticlesViewModel.swift */; };
 		D9C187D42864E7290012FDC7 /* ArticleListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187D32864E7290012FDC7 /* ArticleListItemView.swift */; };
+		D9C187D62864E7580012FDC7 /* ArticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187D52864E7580012FDC7 /* ArticlesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		D9C187CF2864E5E60012FDC7 /* ArticlesCoreDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesCoreDataProvider.swift; sourceTree = "<group>"; };
 		D9C187D12864E6B80012FDC7 /* ArticlesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
 		D9C187D32864E7290012FDC7 /* ArticleListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListItemView.swift; sourceTree = "<group>"; };
+		D9C187D52864E7580012FDC7 /* ArticlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesView.swift; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -250,6 +252,7 @@
 		D9C1879C2864DF970012FDC7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187D52864E7580012FDC7 /* ArticlesView.swift */,
 				D9C187D32864E7290012FDC7 /* ArticleListItemView.swift */,
 				D9C187BB2864E2870012FDC7 /* WebImageView.swift */,
 				D9C187B92864E2690012FDC7 /* EmptyDataSetView.swift */,
@@ -606,6 +609,7 @@
 				D9C187772864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodeld in Sources */,
 				D9C187AB2864E0470012FDC7 /* ServerError.swift in Sources */,
 				D9C187BE2864E2DB0012FDC7 /* Colors+Extension.swift in Sources */,
+				D9C187D62864E7580012FDC7 /* ArticlesView.swift in Sources */,
 				D9C187C42864E3CA0012FDC7 /* CoreDataManager.swift in Sources */,
 				D9C187B52864E19B0012FDC7 /* ArticlesNetworkDataProvider.swift in Sources */,
 				D9C187D42864E7290012FDC7 /* ArticleListItemView.swift in Sources */,
