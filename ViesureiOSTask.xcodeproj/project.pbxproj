@@ -19,6 +19,11 @@
 		D9C187812864DBDF0012FDC7 /* ViesureiOSTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187802864DBDF0012FDC7 /* ViesureiOSTaskTests.swift */; };
 		D9C1878B2864DBDF0012FDC7 /* ViesureiOSTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C1878A2864DBDF0012FDC7 /* ViesureiOSTaskUITests.swift */; };
 		D9C1878D2864DBDF0012FDC7 /* ViesureiOSTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C1878C2864DBDF0012FDC7 /* ViesureiOSTaskUITestsLaunchTests.swift */; };
+		D9C187A82864E0470012FDC7 /* PresentableError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187A32864E0470012FDC7 /* PresentableError.swift */; };
+		D9C187A92864E0470012FDC7 /* UnknownError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187A42864E0470012FDC7 /* UnknownError.swift */; };
+		D9C187AA2864E0470012FDC7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187A52864E0470012FDC7 /* NetworkError.swift */; };
+		D9C187AB2864E0470012FDC7 /* ServerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187A62864E0470012FDC7 /* ServerError.swift */; };
+		D9C187AC2864E0470012FDC7 /* PresentableErrorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187A72864E0470012FDC7 /* PresentableErrorProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		D9C187862864DBDF0012FDC7 /* ViesureiOSTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViesureiOSTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C1878A2864DBDF0012FDC7 /* ViesureiOSTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViesureiOSTaskUITests.swift; sourceTree = "<group>"; };
 		D9C1878C2864DBDF0012FDC7 /* ViesureiOSTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViesureiOSTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D9C187A32864E0470012FDC7 /* PresentableError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentableError.swift; sourceTree = "<group>"; };
+		D9C187A42864E0470012FDC7 /* UnknownError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnknownError.swift; sourceTree = "<group>"; };
+		D9C187A52864E0470012FDC7 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		D9C187A62864E0470012FDC7 /* ServerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerError.swift; sourceTree = "<group>"; };
+		D9C187A72864E0470012FDC7 /* PresentableErrorProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentableErrorProvider.swift; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -185,6 +195,11 @@
 		D9C1879A2864DF830012FDC7 /* Errors */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187A52864E0470012FDC7 /* NetworkError.swift */,
+				D9C187A32864E0470012FDC7 /* PresentableError.swift */,
+				D9C187A72864E0470012FDC7 /* PresentableErrorProvider.swift */,
+				D9C187A62864E0470012FDC7 /* ServerError.swift */,
+				D9C187A42864E0470012FDC7 /* UnknownError.swift */,
 			);
 			path = Errors;
 			sourceTree = "<group>";
@@ -520,10 +535,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C187A82864E0470012FDC7 /* PresentableError.swift in Sources */,
+				D9C187AA2864E0470012FDC7 /* NetworkError.swift in Sources */,
+				D9C187A92864E0470012FDC7 /* UnknownError.swift in Sources */,
 				D9C187772864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodeld in Sources */,
 				D9C187742864DBDE0012FDC7 /* Persistence.swift in Sources */,
+				D9C187AB2864E0470012FDC7 /* ServerError.swift in Sources */,
 				D9C1876D2864DBDB0012FDC7 /* ContentView.swift in Sources */,
 				D9C1876B2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift in Sources */,
+				D9C187AC2864E0470012FDC7 /* PresentableErrorProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
