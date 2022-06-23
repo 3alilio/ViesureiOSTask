@@ -14,7 +14,6 @@
 		D9C1876D2864DBDB0012FDC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C1876C2864DBDB0012FDC7 /* ContentView.swift */; };
 		D9C1876F2864DBDE0012FDC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C1876E2864DBDE0012FDC7 /* Assets.xcassets */; };
 		D9C187722864DBDE0012FDC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C187712864DBDE0012FDC7 /* Preview Assets.xcassets */; };
-		D9C187742864DBDE0012FDC7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187732864DBDE0012FDC7 /* Persistence.swift */; };
 		D9C187772864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9C187752864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodeld */; };
 		D9C187812864DBDF0012FDC7 /* ViesureiOSTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187802864DBDF0012FDC7 /* ViesureiOSTaskTests.swift */; };
 		D9C1878B2864DBDF0012FDC7 /* ViesureiOSTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C1878A2864DBDF0012FDC7 /* ViesureiOSTaskUITests.swift */; };
@@ -35,6 +34,7 @@
 		D9C187BE2864E2DB0012FDC7 /* Colors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187BD2864E2DB0012FDC7 /* Colors+Extension.swift */; };
 		D9C187C12864E3830012FDC7 /* ArticleCoreData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187BF2864E3830012FDC7 /* ArticleCoreData+CoreDataClass.swift */; };
 		D9C187C22864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187C02864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift */; };
+		D9C187C42864E3CA0012FDC7 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187C32864E3CA0012FDC7 /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,6 @@
 		D9C1876C2864DBDB0012FDC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9C1876E2864DBDE0012FDC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9C187712864DBDE0012FDC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D9C187732864DBDE0012FDC7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D9C187762864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViesureiOSTask.xcdatamodel; sourceTree = "<group>"; };
 		D9C1877C2864DBDF0012FDC7 /* ViesureiOSTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViesureiOSTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C187802864DBDF0012FDC7 /* ViesureiOSTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViesureiOSTaskTests.swift; sourceTree = "<group>"; };
@@ -91,6 +90,7 @@
 		D9C187BD2864E2DB0012FDC7 /* Colors+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Colors+Extension.swift"; sourceTree = "<group>"; };
 		D9C187BF2864E3830012FDC7 /* ArticleCoreData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticleCoreData+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		D9C187C02864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArticleCoreData+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		D9C187C32864E3CA0012FDC7 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -182,7 +182,6 @@
 				D9C1876A2864DBDB0012FDC7 /* ViesureiOSTaskApp.swift */,
 				D9C1876C2864DBDB0012FDC7 /* ContentView.swift */,
 				D9C1876E2864DBDE0012FDC7 /* Assets.xcassets */,
-				D9C187732864DBDE0012FDC7 /* Persistence.swift */,
 				D9C187752864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodeld */,
 				D9C187702864DBDE0012FDC7 /* Preview Content */,
 			);
@@ -245,6 +244,7 @@
 		D9C1879D2864DFA40012FDC7 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187C32864E3CA0012FDC7 /* CoreDataManager.swift */,
 				D9C187AF2864E0AC0012FDC7 /* StubbedResponseReader.swift */,
 			);
 			path = Utilities;
@@ -577,9 +577,9 @@
 				D9C187A92864E0470012FDC7 /* UnknownError.swift in Sources */,
 				D9C187C12864E3830012FDC7 /* ArticleCoreData+CoreDataClass.swift in Sources */,
 				D9C187772864DBDE0012FDC7 /* ViesureiOSTask.xcdatamodeld in Sources */,
-				D9C187742864DBDE0012FDC7 /* Persistence.swift in Sources */,
 				D9C187AB2864E0470012FDC7 /* ServerError.swift in Sources */,
 				D9C187BE2864E2DB0012FDC7 /* Colors+Extension.swift in Sources */,
+				D9C187C42864E3CA0012FDC7 /* CoreDataManager.swift in Sources */,
 				D9C187B52864E19B0012FDC7 /* ArticlesNetworkDataProvider.swift in Sources */,
 				D9C187B02864E0AC0012FDC7 /* StubbedResponseReader.swift in Sources */,
 				D9C187B22864E10D0012FDC7 /* Article.swift in Sources */,
