@@ -37,6 +37,7 @@
 		D9C187C42864E3CA0012FDC7 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187C32864E3CA0012FDC7 /* CoreDataManager.swift */; };
 		D9C187C62864E45E0012FDC7 /* MockArticlesData.json in Resources */ = {isa = PBXBuildFile; fileRef = D9C187C52864E45E0012FDC7 /* MockArticlesData.json */; };
 		D9C187CE2864E5AB0012FDC7 /* ArticleListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187CD2864E5AB0012FDC7 /* ArticleListItemViewModel.swift */; };
+		D9C187D02864E5E60012FDC7 /* ArticlesCoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C187CF2864E5E60012FDC7 /* ArticlesCoreDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		D9C187C52864E45E0012FDC7 /* MockArticlesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockArticlesData.json; sourceTree = "<group>"; };
 		D9C187C72864E4BE0012FDC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D9C187CD2864E5AB0012FDC7 /* ArticleListItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListItemViewModel.swift; sourceTree = "<group>"; };
+		D9C187CF2864E5E60012FDC7 /* ArticlesCoreDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesCoreDataProvider.swift; sourceTree = "<group>"; };
 		E81F261F58B8356744719E05 /* Pods_ViesureiOSTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViesureiOSTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -295,6 +297,7 @@
 		D9C187A22864DFD90012FDC7 /* ViesureCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				D9C187CF2864E5E60012FDC7 /* ArticlesCoreDataProvider.swift */,
 				D9C187BF2864E3830012FDC7 /* ArticleCoreData+CoreDataClass.swift */,
 				D9C187C02864E3830012FDC7 /* ArticleCoreData+CoreDataProperties.swift */,
 			);
@@ -585,6 +588,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C187D02864E5E60012FDC7 /* ArticlesCoreDataProvider.swift in Sources */,
 				D9C187A82864E0470012FDC7 /* PresentableError.swift in Sources */,
 				D9C187BA2864E2690012FDC7 /* EmptyDataSetView.swift in Sources */,
 				D9C187B82864E1C80012FDC7 /* JsonDecoder+Extension.swift in Sources */,
